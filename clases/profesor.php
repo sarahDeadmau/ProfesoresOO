@@ -107,5 +107,11 @@ class ProfesorEspecialista extends Profesor
         
     }
 
-   
+    function mostrar()
+    {
+        echo parent::mostrar();
+        
+    }
+
+    
 }
