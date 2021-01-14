@@ -74,5 +74,38 @@ class ProfesorEspecialista extends Profesor
         $this->tarifas = $tarifa;
     }
 
-  
+    public function getHoras()
+    {
+        return $this->horas;
+    }
+
+    public function getTarifa()
+    {
+        return $this->tarifa;
+    }
+
+    public function getBase()
+    {
+        return $this->base;
+    }
+
+    public function setHoras($horas)
+    {
+        $this->horas = $horas;
+        
+    }
+
+    public function setTarifas($tarifa)
+    {
+        $this->tarifa = $tarifa;
+        
+    }
+
+    public function setBase($base)
+    {
+        $this->base = $base;
+        
+    }
+
+   
 }
