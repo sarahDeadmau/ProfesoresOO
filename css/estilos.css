@@ -1,0 +1,81 @@
+/*AUTOR: Sara El Hasnaoui y Nicolas Cruz*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+/* Estilo del header*/
+
+header {
+    background-color: #deb887;
+    border: 2px solid rgb(136, 130, 130);
+    color: rgb(14, 10, 231);
+    padding: 5px;
+    text-align: center;
+}
+
+/* El logo flota a la izquierda */
+
+img {
+    float: left;
+}
+
+/* Estilo de la barra de navegación */
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* estilos de los enlaces del nav */
+
+nav a {
+    color: #f2f2f2;
+    display: block;
+    float: left;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Al pasar el ratón por los enlaces cambia el estilo*/
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*El contenedor principal */
+
+main {
+    background: #f0f0f0;
+    margin: 0 auto;
+    /* centrado, no en IE5 */
+    width: 80%;
+}
+
+/* La sección. Si se añaden más secciones y se cambia el % se convierten en columnas */
+
+section {
+    float: left;
+    padding: 15px;
+    /*     min-height: 420px; */
+    width: 100%;
+}
+
+/* Estilo del pie */
+
+footer {
+    background-color:#deb887;
+    border: 2px solid rgb(136, 130, 130);
+    clear: left;
+    color: rgb(212, 14, 14);
+    padding: 5px;
+    text-align: center;
+}
+
+
