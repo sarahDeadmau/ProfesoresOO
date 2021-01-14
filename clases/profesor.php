@@ -57,7 +57,6 @@ abstract class Profesor
     
 }
 
-
 class ProfesorPlantilla extends Profesor
 {
     private $sueldo;
@@ -108,7 +107,6 @@ class ProfesorPlantilla extends Profesor
       return   $this->sueldo + $this->dietas;
     }
 }
-
 
 class ProfesorEspecialista extends Profesor
 {
@@ -170,7 +168,6 @@ class ProfesorEspecialista extends Profesor
      /* return ($this->base +  $this->horas) * $this->tarifa;*/
     }
 }
-
 
 class Departamento{
     private $departamento = [];
