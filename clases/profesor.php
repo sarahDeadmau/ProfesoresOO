@@ -59,5 +59,20 @@ abstract class Profesor
 
 
 
+class ProfesorEspecialista extends Profesor
+{
+    private $horas;
+    private $tarifa;
+    private $base;
 
-?>
+    function __construct($nombre, $apellido, $numeroSeguridadSocial, $base, $horas, $tarifa)
+    {
+
+        parent::__construct($nombre, $apellido, $numeroSeguridadSocial);
+        $this->base = $base;
+        $this->horas = $horas;
+        $this->tarifas = $tarifa;
+    }
+
+  
+}
