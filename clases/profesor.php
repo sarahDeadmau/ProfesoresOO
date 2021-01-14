@@ -46,7 +46,14 @@ abstract class Profesor
 
    abstract public function ingresos();
 
-  
+   public function mostrar()
+    {
+        echo "<br />" . " Esta emplead@ " . ($this->nombre);
+        echo " " . ($this->apellido);
+        echo " con el NSS: " . ($this->numeroSeguridadSocial);
+         echo "<br />" . " Los ingresos " . ($this-> ingresos());
+
+    }
     
 }
 
