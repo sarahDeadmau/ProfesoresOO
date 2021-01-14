@@ -44,7 +44,9 @@ abstract class Profesor
         $this->numeroSeguridadSocial = $numeroSeguridadSocial;
     }
 
- 
+   abstract public function ingresos();
+
+  
     
 }
 
