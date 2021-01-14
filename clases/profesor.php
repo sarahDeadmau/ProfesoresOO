@@ -58,6 +58,20 @@ abstract class Profesor
 }
 
 
+class ProfesorPlantilla extends Profesor
+{
+    private $sueldo;
+    private $dietas;
+
+    function __construct($nombre, $apellido, $numeroSeguridadSocial, $sueldo, $dietas)
+    {
+        parent::__construct($nombre, $apellido, $numeroSeguridadSocial);
+        $this->sueldo = $sueldo;
+        $this->dietas = $dietas;
+       
+        
+    }
+}
 
 class ProfesorEspecialista extends Profesor
 {
