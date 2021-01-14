@@ -177,6 +177,15 @@ class Departamento{
     function addprofesor($profe){
         array_push($this->departamento, $profe);
     }
+   function listaProfesores(){
+    $lista = "";
+    foreach($this->departamento as $value){
+        $lista .= "Esta emplead@ " . $value->getNombre() . " " . $value->getApellido() .
+        "Con el NSS: " . $value->getNumeroSegurdidaSocial();
+    }
+    return $lista;
+   }
+
   
 }
 
