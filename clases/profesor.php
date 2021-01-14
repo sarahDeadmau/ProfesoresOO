@@ -172,6 +172,14 @@ class ProfesorEspecialista extends Profesor
 }
 
 
+class Departamento{
+    private $departamento = [];
+    function addprofesor($profe){
+        array_push($this->departamento, $profe);
+    }
+  
+}
+
 class PruebaPoliformismo{
     public static function calcular($profe){
         echo "</br>";
