@@ -96,7 +96,17 @@ class ProfesorPlantilla extends Profesor
     }
 
 
- 
+    public function mostrar()
+    {
+        echo parent::mostrar();
+    
+        
+    }
+
+    public function ingresos()
+    {
+      return   $this->sueldo + $this->dietas;
+    }
 }
 
 
