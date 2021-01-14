@@ -71,7 +71,34 @@ class ProfesorPlantilla extends Profesor
        
         
     }
+
+    public function getSueldo()
+    {
+        return $this->sueldo;
+    }
+
+
+    public function setSueldo($sueldo)
+    {
+        $this->sueldo = $sueldo;
+        
+    }
+
+
+    public function setDietas($dietas)
+    {
+        $this->dietas = $dietas;
+        
+    }
+    public function getDietas()
+    {
+        return $this->dietas;
+    }
+
+
+ 
 }
+
 
 class ProfesorEspecialista extends Profesor
 {
