@@ -186,7 +186,13 @@ class Departamento{
     return $lista;
    }
 
-  
+   function totalIngresos(){
+    $total = 0;
+    foreach($this->departamento as $value){
+        $total += $value->ingresos();
+    }
+    return $total;
+    }
 }
 
 class PruebaPoliformismo{
