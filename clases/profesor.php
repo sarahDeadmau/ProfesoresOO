@@ -119,3 +119,13 @@ class ProfesorEspecialista extends Profesor
      /* return ($this->base +  $this->horas) * $this->tarifa;*/
     }
 }
+
+
+class PruebaPoliformismo{
+    public static function calcular($profe){
+        echo "</br>";
+        echo "Los ingresos" . $profe-> getApellido() . " son " . $profe-> ingresos();
+    }
+}
+
+?>
