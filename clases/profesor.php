@@ -113,5 +113,9 @@ class ProfesorEspecialista extends Profesor
         
     }
 
-    
+    function ingresos()
+    {
+        return $this->base +  $this->horas * $this->tarifa;
+     /* return ($this->base +  $this->horas) * $this->tarifa;*/
+    }
 }
